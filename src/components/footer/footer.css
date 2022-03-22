@@ -1,0 +1,12 @@
+footer {
+	padding: 35px;
+	text-align: center;
+	border-top: solid 2px #000;
+	font-weight: 600;
+}
+footer p {
+	margin-bottom: 10px;
+}
+footer input {
+	padding: 3px 10px;
+}

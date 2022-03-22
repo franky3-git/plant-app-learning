@@ -1,0 +1,19 @@
+:root {
+	--basket-backgroundColor: #31B572;
+}
+*, ::before, ::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	
+}
+.container {	
+	font-family: sans-serif;
+	min-height: 100vh;
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+}
+
+
+
+

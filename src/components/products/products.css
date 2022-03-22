@@ -1,0 +1,50 @@
+.products-container {
+	display: grid;
+	grid-gap: 1.8rem;
+	grid-template-columns: repeat(3, 1fr);
+	padding: 15px;
+}
+.searchContainer {
+	padding: 30px;
+	text-align: center;
+}
+#search-box {
+	margin-right: 15px;
+	padding: 5px;
+}
+.btn-reset {
+	padding: 5px 8px;
+}
+
+.singlePlant {
+	width: 250px;
+	position: relative;
+}
+.singlePlant .plant-image {
+	width: 100%;
+	height: 250px;
+	border-radius: 15px;
+}
+.light, water {
+	margin-bottom: 10px;
+}
+.singlePlant .price {
+	position: absolute;
+	width: 60px;
+	height: 60px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #eee;
+	background: var(--basket-backgroundColor);
+	top: 0px;
+	right: 0px;
+	border-radius: 15px 15px 15px 0;
+}
+.singlePlant .name {
+	font-weight: 600;
+}
+.btn-add-to-basket {
+	padding: 3px 5px;
+	cursor: pointer;
+}

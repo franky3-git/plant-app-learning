@@ -1,0 +1,54 @@
+.basket-container {
+	min-width: 280px;
+	position: relative;
+	margin-right: 15px;
+	color: #eee;
+	padding: 25px;
+	transition: 200ms transform;
+}
+.basket {
+	background-color: var(--basket-backgroundColor);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	padding: 25px;
+}
+.btn-close-div {
+	margin-bottom: 15px;
+	text-align: right;
+}
+.center {
+	text-align: center;
+}
+
+.close-basket-btn, .open-basket-btn {
+	border: none;
+	cursor: pointer;
+	background: none;
+	font-size: 1.1rem;
+	color: #eee;
+}
+.open-basket-btn {
+	color: #111;
+}
+.basket h2 {
+	margin-bottom: 17px;
+}
+.basket-list {
+	margin-left: 20px;
+	margin-bottom: 15px;
+}
+basket-list h2:nth-last-of-type(h2) {
+	margin-bottom: 20px;
+}
+.selected-product {
+	margin-bottom: 15px;
+}
+.clear-basket-btn {
+	padding: 3px 6px;
+}
+.price::after, .total-basket-price::after {
+	content: ' $'
+}
